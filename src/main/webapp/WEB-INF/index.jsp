@@ -6,15 +6,16 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>INDEX PAGE FOR COUNTER</title>
+    <title>TIME DOC</title>
 </head>
 <body>
-<h1><c:out value="${titleString}"/></h1>
+<h3>index page</h3>
+INDEX INDEX
 
-<h1>This is the counter page...the index was visited this many times:</h1>
+<h1><c:out value="${titleString}"/></h1>
 <c:out value="${sessionScope.count }" />
 
-<a href="./">Back</a>
+<a href="/counter">COUNTER INFO</a>
 
 </body>
 </html>
